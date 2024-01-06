@@ -1,0 +1,1024 @@
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				21:32:50
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				21:35:09
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				21:39:11
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				21:40:54
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				21:52:43
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				21:54:46
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:04:35
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:05:33
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:07:12
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:21:54
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:23:46
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:25:04
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:26:52
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:36:03
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:37:26
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:39:44
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				22:59:41
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:18:03
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cannot communicate with the tool.
+Wrong tool selection or check tool power supply or check that a previous session is closed.
+<<< Programming PROGRAM MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:18:21
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:30:13
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:38:09
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:42:56
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:44:30
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:50:13
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cannot communicate with the device !
+Check the SWIM cable connection and check all the needed pin connections on the SWIM connector.
+
+If the application code uses Swim Disable and Reset pin as Output or has disabled SWIM Clock Divider:
+Try Now to SWITCH OFF and ON the application Power Supply while NRST Reset pin is forced low.
+
+<<< Programming PROGRAM MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:50:42
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/10/19
+time:				23:56:20
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/11/19
+time:				00:00:39
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails
+----------------------------------------------------------
+new log session
+date:				06/11/19
+time:				00:15:55
+----------------------------------------------------------
+STVP_CmdLine version 1.6
+
+Verbose ON
+Log activity ON
+Display Progress OFF
+Message box warning if protect option byte ON
+Loop mode ON
+Erase device OFF
+Blank check device OFF
+Verify device ON
+
+Configuration:
+BoardName=ST-LINK ST-LINK_ID=0 Device=STM8S003F3 Port=USB ProgMode=SWIM
+
+>>> Filling PROGRAM MEMORY image in computer with Blank Value
+<<< Filling PROGRAM MEMORY image in computer succeeds
+
+>>> Loading file .\Debug\stm8-1.s19 in PROGRAM MEMORY image in computer
+<<< Loading file succeeds
+
+>>> Programming PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Programming PROGRAM MEMORY succeeds
+
+>>> Verifying PROGRAM MEMORY
+Cut Version and Revision of device: 1.2
+<<< Verifying PROGRAM MEMORY succeeds
+
+>>> Verifying DATA MEMORY
+Cut Version and Revision of device: 1.2
+Verify failed at address 0x4000
+<<< Verifying DATA MEMORY fails

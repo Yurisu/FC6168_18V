@@ -1,0 +1,127 @@
+np=36814==LED5=B4=高电量_绿
+
+pp=4678==LED2=C7=低电量_绿
+
+
+
+加上柄
+
+np=34814
+
+
+
+按下:
+
+柄power=14230~16085==LED3=C5=低电量_黄
+
+柄MAX=24074==LED4=C3=中电量_绿
+
+
+
+==LED1=D1=红灯,不亮?
+
+
+
+
+
+
+
+	GPIO_Init(GPIOA,GPIO_PIN_1|GPIO_PIN_3,GPIO_MODE_OUT_PP_HIGH_SLOW);//GPIO_MODE_OUT_PP_LOW_SLOW);
+
+	GPIO_Init(GPIOA,GPIO_PIN_3,GPIO_MODE_OUT_PP_LOW_SLOW);//GPIO_MODE_OUT_PP_LOW_SLOW);
+
+	GPIO_Init(GPIOA,GPIO_PIN_2,GPIO_MODE_OUT_PP_HIGH_SLOW);//GPIO_MODE_OUT_PP_LOW_SLOW);
+
+GPIO_Init(GPIOC,GPIO_PIN_7,GPIO_MODE_OUT_PP_HIGH_SLOW);
+
+
+
+		LED2_ON();
+
+
+
+	 ii=64000;
+
+	while(ii--);
+
+		LED2_OFF();
+
+  power2_OFF();
+
+
+
+	//GPIO_Init(GPIOA,GPIO_PIN_2,GPIO_MODE_OUT_PP_LOW_SLOW);
+
+	
+
+	
+
+	while (1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void start_moto(uint32_t startspeed_ms )//ok
+{
+	uint32_t delayms=0;
+	uint16_t spii=0;
+	if(spii==0)
+	{
+		PWM_SET(spii);
+		Delay1ms(200);
+	}
+	delayms=startspeed_ms/moto_toppower;
+		
+		
+	while(spii < moto_toppower)
+	{
+		spii++;
+		PWM_SET(spii);
+		Delay1ms(delayms);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		uint16_t spii=0;
+	uint32_t startspeed_ms;
+
+void start_moto()
+{
+	uint32_t delayms=0;
+	if(spii==0)
+	{
+		PWM_SET(spii);
+		//Delay1ms(200);
+	}
+	delayms=startspeed_ms/moto_toppower;
+		
+		
+	if(spii < moto_toppower)
+	{
+		spii++;
+		PWM_SET(spii);
+		//Delay1ms(delayms);
+	}
+}

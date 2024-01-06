@@ -1,0 +1,82 @@
+工作模式:
+1挡,2挡
+不同的电池节数de最大功率
+开关机,定时关机
+挡位切换,每按一下切换
+电量
+高温
+
+
+//
+uint8_t LEDtype,LEDtime;//led指示的类型
+//颜色定义,1=红,2=黄,3=绿,4=绿,5=绿
+LED动画()
+123绿,流水
+红,黄闪烁
+12345绿单独闪
+12345常亮
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\Program Files (x86)\STMicroelectronics\st_toolset\stvp\
+stvp_cmdline -BoardName=ST-LINK -Port=USB -Device=STM8S003F3 -ProgMode=SWIM -no_progData -no_progOption -FileProg="C:\Users\yuri\Documents\STM8\WORK\stm8s吸尘器\stm8s_吸尘器\Debug\stm8-1.s19"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+void start_motonnn(uint32_t startspeed_ms )
+{
+	uint32_t delayms=0;
+	uint16_t spii=0;
+	//moto_toppower=100;
+
+	if(spii==0)
+	{
+		PWM_SET(spii);
+		Delay1ms(200);
+	}
+	delayms=50;//startspeed_ms/moto_toppower;
+		
+		
+	while(spii < moto_toppower)
+	{
+		spii++;
+		PWM_SET(spii);
+		Delay1ms(delayms);
+	}
+}

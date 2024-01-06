@@ -1,0 +1,199 @@
+/* MAIN.C file
+ * 
+ * Copyright (c) 2002-2005 STMicroelectronics
+ */
+
+//#include “stm8s.h”
+//#include "stm8s103f.h"
+
+//#include "iostm8s103f3.h"
+#include"stm8s.h"
+#include "stm8s_exti.h"
+#include "stm8s_adc1.h"
+#include "stm8s_gpio.h"
+#include "stm8s_awu.h"
+#include "stm8s_clk.h"
+#include "bsp_awu.h"
+
+#define uchar unsigned char
+#define uint unsigned int
+#define ulong unsigned long
+
+
+
+#define LED1_ON() GPIO_WriteLow(GPIOD,GPIO_PIN_2)
+#define LED1_OFF() GPIO_WriteHigh(GPIOD,GPIO_PIN_2)
+
+#define LED2_ON() GPIO_WriteLow(GPIOD,GPIO_PIN_3)
+#define LED2_OFF() GPIO_WriteHigh(GPIOD,GPIO_PIN_3)
+
+#define LED3_ON() GPIO_WriteLow(GPIOC,GPIO_PIN_7)
+#define LED3_OFF() GPIO_WriteHigh(GPIOC,GPIO_PIN_7)
+
+#define LED4_ON() GPIO_WriteLow(GPIOC,GPIO_PIN_6)
+#define LED4_OFF() GPIO_WriteHigh(GPIOC,GPIO_PIN_6)
+
+#define LED5_ON() GPIO_WriteLow(GPIOC,GPIO_PIN_4)
+#define LED5_OFF() GPIO_WriteHigh(GPIOC,GPIO_PIN_4)
+
+#define LED6_ON() GPIO_WriteLow(GPIOC,GPIO_PIN_3)
+#define LED6_OFF() GPIO_WriteHigh(GPIOC,GPIO_PIN_3)
+
+#define LED7_ON() GPIO_WriteLow(GPIOA,GPIO_PIN_3)
+#define LED7_OFF() GPIO_WriteHigh(GPIOA,GPIO_PIN_3)
+
+
+
+unsigned long offtime;
+
+bool fPowerOn_flag = 0;
+
+void Delay(int time)
+{
+    volatile unsigned int i;
+		while(time--){
+			i=300;
+			while(i--);
+		}
+}
+
+
+void Clk_Init(void)                 
+{   //初始化时钟，选择时钟 
+volatile unsigned int i;
+
+	CLK_DeInit();//复位时钟寄存器
+	
+//  CLK_LSICmd(ENABLE);	//内部低速时钟
+//	CLK_ClockSwitchCmd(ENABLE);
+//	CLK_ClockSwitchConfig(CLK_SWITCHMODE_MANUAL,CLK_SOURCE_LSI,DISABLE,CLK_CURRENTCLOCKSTATE_DISABLE);
+
+	CLK_HSICmd(ENABLE);//使能内部高速时钟
+	CLK_HSIPrescalerConfig(CLK_PRESCALER_CPUDIV8);//配置内部高速时钟(时钟分频器:4分频/16mhz),系统时钟4MHz    
+	CLK_ClockSecuritySystemEnable();//开启时钟安全系统 
+}
+void InPut_Init(void) 
+{    //与按键相连的引脚设置为输入模式    
+//GPIO_Init(P_PortD,Power,GPIO_MODE_IN_PU_IT);          //将PD7引脚的TLI中断设置为下降沿中断,TLI是最高优先级中断   
+//EXTI_SetTLISensitivity(EXTI_TLISENSITIVITY_FALL_ONLY);       
+//GPIO_Init(P_PortA,CHARGE_IN,GPIO_MODE_IN_PU_IT);        //将GPIOD端口设置为上升沿触发中断--因为充电器插入时产生一个高电平，拔出时产生一个下降沿    
+//EXTI_SetExtIntSensitivity(EXTI_PORT_GPIOA,EXTI_SENSITIVITY_RISE_FALL);    
+}
+void Halt_OffDevice(void) 
+{    //关闭设备前，设置系统主时钟，和中断    
+
+ AWU_LSICalibrationConfig(AWU_LSIMeasurement());//校正LSI时
+ 
+//CLK_DeInit();//复位时钟寄存器    
+Clk_Init();         //CLK_HSIPrescalerConfig(CLK_PRESCALER_HSIDIV4);       
+ADC1_DeInit();   
+TIM1_DeInit();     //停机前关闭不需要的功能模块的时钟      
+CLK_SlowActiveHaltWakeUpCmd(DISABLE); //快速唤醒
+CLK_FastHaltWakeUpCmd(DISABLE);
+CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER3,DISABLE);   
+CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER1,DISABLE);   
+CLK_PeripheralClockConfig(CLK_PERIPHERAL_ADC,DISABLE);   
+CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER2,DISABLE);   
+CLK_PeripheralClockConfig(CLK_PERIPHERAL_TIMER4,DISABLE);   
+//CLK_PeripheralClockConfig(CLK_PERIPHERAL_AWU,DISABLE);   
+CLK_PeripheralClockConfig(CLK_PERIPHERAL_I2C,DISABLE);
+CLK_PeripheralClockConfig(CLK_PERIPHERAL_UART2,DISABLE);    
+
+GPIO_Init(GPIOA,GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3,GPIO_MODE_OUT_PP_HIGH_SLOW);//GPIO_MODE_OUT_PP_LOW_SLOW);       
+//GPIO_Init(GPIOB,GPIO_PIN_HNIB,GPIO_MODE_OUT_PP_HIGH_SLOW);    
+GPIO_Init(GPIOB,GPIO_PIN_4|GPIO_PIN_5,GPIO_MODE_OUT_PP_HIGH_SLOW);       
+GPIO_Init(GPIOC,GPIO_PIN_3|GPIO_PIN_4,GPIO_MODE_OUT_PP_HIGH_SLOW);    
+GPIO_Init(GPIOC,GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7,GPIO_MODE_OUT_PP_HIGH_SLOW);       
+//GPIO_Init(GPIOD,GPIO_PIN_LNIB,GPIO_MODE_OUT_PP_HIGH_SLOW);    
+GPIO_Init(GPIOD,GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3,GPIO_MODE_OUT_PP_HIGH_SLOW);       
+GPIO_Init(GPIOD,GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6,GPIO_MODE_OUT_PP_LOW_SLOW);       
+
+//GPIO_Init(GPIOE,GPIO_PIN_LNIB,GPIO_MODE_OUT_PP_HIGH_SLOW);    
+//GPIO_Init(GPIOE,GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7,GPIO_MODE_OUT_PP_HIGH_SLOW);       
+//GPIO_Init(GPIOG,GPIO_PIN_0,GPIO_MODE_OUT_PP_LOW_SLOW);   
+//GPIO_Init(GPIOG,GPIO_PIN_1,GPIO_MODE_OUT_PP_HIGH_SLOW);       
+//InPut_Init();    
+
+
+enableInterrupts(); 
+
+}
+
+
+
+void Enter_Halt(AWU_Timebase_TypeDef AWU_TimeBase)
+{    //启动AWU并进入halt模式
+	
+ //  CLK_DeInit();//复位时钟寄存器   
+  //AWU_DeInit();
+  AWU_Cmd(ENABLE);
+  CLK_SlowActiveHaltWakeUpCmd(ENABLE);//进入超低功耗模式
+  AWU_Init(AWU_TimeBase);
+	halt();//进入停机模式   
+ 
+  //AWU_DeInit();//唤醒后关AWU
+	//Clk_Init(); //唤醒后时钟变成2M，重新初始化时钟
+  //CLK_PeripheralClockConfig(CLK_PERIPHERAL_AWU,DISABLE);  
+  
+}
+
+
+
+main()
+{
+	Clk_Init(); 
+	//GPIO_Init(GPIOC,GPIO_PIN_5|GPIO_PIN_6|GPIO_PIN_7,GPIO_MODE_OUT_PP_HIGH_SLOW);       
+  //GPIO_Init(GPIOC,GPIO_PIN_3|GPIO_PIN_4,GPIO_MODE_OUT_PP_HIGH_SLOW);    
+
+	fPowerOn_flag=1;
+	Halt_OffDevice();
+	Enter_Halt(AWU_TIMEBASE_256MS);   
+	offtime=0;
+	
+while (1){
+	//offtime++;
+	
+//	LED2_OFF();
+//	Delay(200);
+//	LED1_OFF();
+//	LED2_ON();
+//	Delay(200);	
+//  LED2_OFF();
+
+	 if(offtime>120000)
+   {
+//		 fPowerOn_flag=1;
+       LED6_ON();
+   }
+	 
+
+//	if(0)
+	{
+		if(fPowerOn_flag)
+		{        
+		fPowerOn_flag=0;
+		LED1_ON();//LED2_ON();LED3_ON();LED4_ON();LED5_ON();
+		Enter_Halt(AWU_TIMEBASE_1MS);
+		offtime+=1;
+		}
+		else
+		{
+		fPowerOn_flag=1;
+		LED1_OFF();//LED2_OFF();LED3_OFF();LED4_OFF();LED5_OFF();
+		Enter_Halt(AWU_TIMEBASE_1S);
+		offtime+=1000;
+		}
+	}
+//	 LED1_OFF();
+//	LED2_OFF();
+	 //Enter_Halt(AWU_TIMEBASE_256MS);
+	 
+}	 
+	 
+	 
+//CLK_SlowActiveHaltWakeUpCmd(ENABLE);
+//FLASH_SetLowPowerMode(FLASH_LPMODE_POWERDOWN);
+
+
+
+}
